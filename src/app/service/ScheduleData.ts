@@ -2,21 +2,22 @@ import { Schedule } from "src/interface/schedule";
 import { Team } from "src/interface/team";
 
 export const SEASON_SCHEDULE:Schedule [] = [
-    {id: 1, PlayingDate: new Date(2021, 08, 10), HomeTeam: 'Persija', 
-    AwayTeam: 'Persib', HomeScore:3, AwayScore:4,
-    RefName: 'Joko', notes: 'Pertandingan Overtime'},
-    {id: 2, PlayingDate: new Date(2021, 08, 11), HomeTeam: 'Persipon', 
-    AwayTeam: 'RRQ', HomeScore:3, AwayScore:0,
-    RefName: 'SUkasjo', notes: 'Pertandingan Melelahkan'},
-    {id: 3, PlayingDate: new Date(2021, 08, 12), HomeTeam: 'Evos', 
-    AwayTeam: 'Persis Solo', HomeScore:2, AwayScore:0,
-    RefName: 'Edo', notes: 'Pertandingannya agak aneh'},
-    {id: 4, PlayingDate: new Date(2021, 08, 13), HomeTeam: 'Persipon', 
-    AwayTeam: 'Persija', HomeScore:3, AwayScore:0,
-    RefName: 'Arif', notes: 'Pertandingan Dimenangkan oleh Persipon'},
-    {id: 5, PlayingDate: new Date(2021, 08, 14), HomeTeam: 'MU', 
-    AwayTeam: 'Real Madrid', HomeScore:2, AwayScore:4,
-    RefName: 'Bambang', notes: 'Pertandingan Overtime'},
+
+    {id:1,PlayingDate:new Date(2021,8,10),HomeTeam: 'Persija',
+    AwayTeam:'Bali United',HomeScore:3,AwayScore:2,
+    RefName:'Joko',notes:'Pertandingan Overtime'},
+    {id:2,PlayingDate:new Date(2021,8,11),HomeTeam: 'EVOS',
+    AwayTeam:'Persipon',HomeScore:4,AwayScore:2,
+    RefName:'kasjo',notes:'Pertandingan ngelek'},
+    {id:3,PlayingDate:new Date(2021,8,13),HomeTeam: 'PERSIS SOLO',
+    AwayTeam:'Persipon',HomeScore:2,AwayScore:4,
+    RefName:'Parto',notes:'Pertandingan ada kerusuhan'},
+    {id:4,PlayingDate:new Date(2021,8,14),HomeTeam: 'RRQ',
+    AwayTeam:'PERSIB',HomeScore:2,AwayScore:4,
+    RefName:'Parto',notes:'Pertandingan 3 kartu merah dari persib'},
+    {id:5,PlayingDate:new Date(2021,8,15),HomeTeam: 'PERSIS SOLO',
+    AwayTeam:'PERIB',HomeScore:2,AwayScore:3,
+    RefName:'Parto',notes:'Pertandingan aman'},
 ]
 
 export const TEAMS: Team [] = [
